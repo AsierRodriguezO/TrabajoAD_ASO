@@ -25,7 +25,7 @@ Primero, se configuró el firewall y router `pfSense` como puerta de enlace para
 
 - Se definió el pool DHCP para asignar direcciones IP a los clientes.
 
-![Configuración del DNS DHCP en pfSense](Imagenes1/image3.png)
+![Configuración del DNS DHCP en pfSense](Imagenes1/image4.png)
 
 - Se verificó que las reglas de red permitan la comunicación entre clientes y servidor.
 
@@ -38,7 +38,7 @@ Una vez configurada la red, se procedió a instalar y configurar el servidor Win
 ### Pasos realizados:
 - Se instaló Windows Server.
 
-![Configuración del DNS DHCP en pfSense](Imagenes1/image4.png)
+![Configuración del DNS DHCP en pfSense](Imagenes1/image3.png)
 
 - Se configuró el nombre del servidor.
 
@@ -67,21 +67,21 @@ Para integrar equipos al dominio, se realizaron los siguientes pasos:
 - Se asignó manualmente la dirección IP o se utilizó DHCP.
 - **Importante:** El cliente debe apuntar al DNS del servidor de dominio.
 
-![Configuración de red del cliente con DNS del servidor AD](Imagenes1/image9.png)
+![Configuración de red del cliente con DNS del servidor AD](Imagenes1/image12.png)
 
 ### 3.2. Verificación de conectividad
 - Se comprobó la conectividad con el servidor mediante `ping`.
 
-![Configuración del DNS DHCP en pfSense](Imagenes1/image10.png)
+![Configuración del DNS DHCP en pfSense](Imagenes1/image9.png)
 
 ### 3.3. Unión al dominio
 - Se cambió el nombre del equipo cliente.
 
-![Configuración del DNS DHCP en pfSense](Imagenes1/image11.png)
+![Configuración del DNS DHCP en pfSense](Imagenes1/image10.png)
 
 - Se unió el equipo al dominio usando credenciales de administrador.
 
-![Configuración del DNS DHCP en pfSense](Imagenes1/image12.png)
+![Configuración del DNS DHCP en pfSense](Imagenes1/image11.png)
 
 ![Configuración del DNS DHCP en pfSense](Imagenes1/image13.png)
 
