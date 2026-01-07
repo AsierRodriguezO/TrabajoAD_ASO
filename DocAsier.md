@@ -64,7 +64,7 @@ Para integrar equipos al dominio, se realizaron los siguientes pasos:
 
 ![Configuración del DNS DHCP en pfSense](Imagenes1/image8.png)
 
-- Se asignó manualmente la dirección IP o se utilizó DHCP.
+- Se asignó manualmente la dirección IP.
 - **Importante:** El cliente debe apuntar al DNS del servidor de dominio.
 
 ![Configuración de red del cliente con DNS del servidor AD](Imagenes1/image12.png)
